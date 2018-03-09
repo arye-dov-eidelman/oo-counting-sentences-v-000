@@ -10,6 +10,6 @@ class String
     self.end_with?('!')
   end
   def count_sentences
-      self.match(/(\.|\?|!)([^\.|\?|!]|$)/)
+      self.match(/(\.|\?|!)([^\.|\?|!]|$)/).length
   end
 end
